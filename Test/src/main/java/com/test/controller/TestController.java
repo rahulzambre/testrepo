@@ -9,7 +9,7 @@ public class TestController {
  
 	@RequestMapping(value="heathcheck",method = RequestMethod.GET)
 	public String getHealthCheck() {
-		return "Test App Works";
+		return "Test App Works again";
 	}
 
 }
